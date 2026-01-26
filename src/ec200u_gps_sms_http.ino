@@ -2,8 +2,8 @@
 
 SoftwareSerial ec200u(9, 5); // RX, TX
 
-String APN = "airtelgprs.com";
-String URL = "https://script.google.com/macros/s/AKfycbyjHwZl-rK1L7xoGsFfQHMTGqss3sLyOGcGspKv8YYIm956sI7pQg1r-p1HU28cTYst4A/exec";
+String APN = "your sim";
+String URL = "https://script.google.com/macros/s/your google sheet api/exec";
 String TOKEN = "iot-secret-123";
 
 String lastResponse = ""; // HTTP buffer
