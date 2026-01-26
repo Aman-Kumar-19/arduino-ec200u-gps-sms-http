@@ -4,8 +4,7 @@ using the `AT+QGPSLOC?` command.
 ---
 
 ## Raw Response Format
-
-```text
+<pre>
 +QGPSLOC: hhmmss.s,lat,N,lon,E,hdop,alt,fix,cog,spkm,spkn
 
 
@@ -23,37 +22,42 @@ using the `AT+QGPSLOC?` command.
 | spkm     | Speed (km/h)           |
 | spkn     | Speed (knots)          |
 
-
+</pre>
 Example Response
+<pre>
 +QGPSLOC: 092536.0,1304.5678,N,07735.9876,E,1.2,50.0,1,0.9,0.8,0.7
+</pre>
 
 Time Parsing
 
 UTC Time:
-
+<pre>
 092536 → 09:25:36
-
+</pre>
 Coordinate Conversion
+
 Latitude Conversion
+<pre>
 1304.5678
 Degrees = 13
 Minutes = 04.5678
 Decimal = 13 + (4.5678 / 60)
+</pre>
 
 Longitude Conversion
+<pre>
 07735.9876
 Degrees = 77
 Minutes = 35.9876
 Decimal = 77 + (35.9876 / 60)
+</pre>
 
 Decimal Output Example
-Latitude  : 13.076130
-Longitude : 77.599796
+- Latitude  : 13.076130
+- Longitude : 77.599796
 
-Notes
-
-GPS fix may take several minutes on cold start
-
-Ensure GPS antenna is connected
-
-Outdoor environment improves fix speed
+----
+## Notes
+- GPS fix may take several minutes on cold start
+- Ensure GPS antenna is connected
+- Outdoor environment improves fix speed
