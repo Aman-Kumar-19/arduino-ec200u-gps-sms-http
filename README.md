@@ -7,6 +7,8 @@ with an Arduino to:
 - Send location via **SMS**
 - Upload GPS data to **Google Sheets** using HTTP GET
 - Generate a **Google Maps link** automatically
+<img width="4368" height="8192" alt="Mermaid Chart - Create complex, visual diagrams with text -2026-01-30-095700" src="https://github.com/user-attachments/assets/ca558a88-9eb9-4806-8750-a85b4c9e7ff4" />
+
 
 ---
 
